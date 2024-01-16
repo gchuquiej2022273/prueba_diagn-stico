@@ -3,23 +3,19 @@ body {
 }
 
 #contenedor{
-    width: 400px;
+    width: 550px;
     height: 630px;
-    padding-left: 180px;
     margin: auto;
+    background-color: white;
     display: flex;
     border-radius: 5%;
-    background-color: white;
 }
 
 #contenedorHijo{
     background-color: rgba(59, 59, 59, 0.13);
     width: 350px;
     height: 425px;
-    padding-right:100px;
+    display: flexbox;
+    margin: auto;
+    border-radius: 5%;
 }
-
-#Letra{
-    text-align: center;
-}
-
