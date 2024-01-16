@@ -1,8 +1,25 @@
 body {
-    background-color: azure;
+    background-color: aquamarine;
 }
 
-.contenedor{
+#contenedor{
+    width: 400px;
+    height: 630px;
+    padding-left: 180px;
+    margin: auto;
     display: flex;
-    align-items: center;
+    border-radius: 5%;
+    background-color: white;
 }
+
+#contenedorHijo{
+    background-color: rgba(59, 59, 59, 0.13);
+    width: 350px;
+    height: 425px;
+    padding-right:100px;
+}
+
+#Letra{
+    text-align: center;
+}
+
