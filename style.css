@@ -1,0 +1,8 @@
+body {
+    background-color: azure;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+}
