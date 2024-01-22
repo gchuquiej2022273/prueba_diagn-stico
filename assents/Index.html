@@ -4,17 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba Diagnostico</title>
+    <title>Promesas</title>
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <article id="contenedor">
-        <section id="contenedorHijo">
-            <h1><font color="black">Ahorcado</font></h1>
-        </section>
-        <section id="contenedorHijo">
-            
-        </section>
-    </article>
+    <div>
+        <form action="miFormulario">
+            <label for="Nombre">Nombre :</label>
+            <input type="text" id="nombre" required>
+            <button type="button">Enviar solicitud</button>
+        </form>
+        <p id="mensaje" class="oculto"></p>
+    </div>
 </body>
 </html>
