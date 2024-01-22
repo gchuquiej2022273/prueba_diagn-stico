@@ -1,21 +1,24 @@
-body {
-    background-color: aquamarine;
-}
-
-#contenedor{
-    width: 550px;
-    height: 630px;
-    margin: auto;
-    background-color: white;
+body{
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    border-radius: 5%;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: azure;
 }
 
-#contenedorHijo{
-    background-color: rgba(59, 59, 59, 0.13);
-    width: 350px;
-    height: 425px;
-    display: flexbox;
-    margin: auto;
-    border-radius: 5%;
+.contenedor{
+    text-align: center;
+    background-color: darkslategrey;
+    padding:20px;
+    border-radius: 8px;
+}
+
+form{
+    margin-bottom: 20px;
+}
+
+.oculto{
+    display: none;
 }

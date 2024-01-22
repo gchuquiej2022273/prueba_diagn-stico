@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="/assents/style.css">
 </head>
 <body>
-    <div>
+    <div class="contenedor">
         <form action="miFormulario">
             <label for="Nombre">Nombre :</label>
             <input type="text" id="nombre" required>
-            <button type="button">Enviar solicitud</button>
+            <button type="button" onclick="enviarDatos()">Enviar solicitud</button>
         </form>
         <p id="mensaje" class="oculto"></p>
     </div>
-    <script src="/assents/logicaPromesas.js"></script>
+    <script src="/assents/logicaAsyn.js"></script>
 </body>
 </html>
